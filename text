@@ -1,0 +1,73 @@
+<style>
+    p {
+        font-family: Arial, sans-serif;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .video-title {
+        font-size: 18px;
+        font-weight: bold;
+        width: 300px;
+        line-height: 24px;
+        margin-bottom: 4px;
+        color: #212529;
+    }
+
+    .video-stats {
+        font-size: 14px;
+        color: #606060;
+        margin-bottom: 19px;
+    }
+
+    .author {
+        font-size: 14px;
+        color: #606060;
+        margin-bottom: 19px;
+    }
+
+    .description {
+        font-size: 14px;
+        color: #606060;
+        width: 270px;
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+
+    .shop-text {
+        margin-bottom:1000px;
+        font-size: 14px;
+        background-color: #e34140;
+        padding: 18px 16px;
+        color: white;
+        text-align:center;
+    }
+
+    .shop-link {
+        cursor: pointer;
+    }
+
+    .shop-link:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<p class="video-title">
+    Talking Tech and AI with Google CEO Sundar Pichai!
+</p>
+
+<p class="video-stats">
+    3.4M views &middot; 6 months ago
+</p>
+
+<p class="author">
+    Marques Brownlee &check;
+</p>
+
+<p class="description">
+    Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
+</p>
+
+<p class="shop-text">
+    Shop early for the best selection of holiday favourites. <span class="shop-link">Shop now &#62;</span>
+</p>
