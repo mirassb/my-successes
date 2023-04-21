@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>exercises</title>
+    <style>
+      p {
+        font-family: Arial, sans-serif;
+        font-size: 25px;
+        margin-left: 50px;
+      }
+
+      input {
+        display: block;
+        background-color: rgb(238, 238, 238);
+        color: rgb(174, 174, 174);
+        border: none;
+        margin-bottom: 5px;
+        margin-left: 50px;
+        padding: 11px 100px 11px 5px;
+      }
+
+      .rn {
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 5px;
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 15px 10px 15px;
+        margin-top: 15px;
+        margin-right: 11px;
+        cursor: pointer;
+      }
+
+      .sfl {
+        display: inline-block;
+        margin-top: 5px;
+        background-color: rgb(238, 238, 238);
+        color: black;
+        border: none;
+        padding: 10px 15px 10px 15px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Request a ride now
+    </p>
+    <input type="text" placeholder="Enter pickup location">
+    <input type="text" placeholder="Enter destination">
+    <button class="rn">
+      Request now
+    </button>
+    <button class="sfl">
+      Schedule for later
+    </button>
+  </body>
+</html>
